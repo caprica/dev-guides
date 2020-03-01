@@ -6,7 +6,7 @@ The intent is to distil product documentation into focussed, consise guides with
 
 The guides do not cover every aspect of a topic, but they should be enough to get started with something that actually works.
 
-The intended audience is for teams just starting out on the topic, not for already experienced practitioners.
+The intended audience is for inexperienced teams just starting out on the topic, not for already experienced practitioners.
 
 ## Current Guides
 
@@ -14,9 +14,11 @@ Guides are grouped loosely by broad topic areas.
 
 ### devops
 
-Currently focussed on getting going with [Amazon Web Services](https://aws.amazon.com).
+Focussed on getting going with [Amazon Web Services](https://aws.amazon.com).
 
 The goal here is to start from zero, create a source code repository, build the project, build a docker image and deploy it to AWS.
+
+#### AWS
 
  * [AWS SSH setup for CodeCommit](devops/aws-ssh.md)
  * [AWS ECR (Elastic Container Registry)](devops/aws-elasticcontainerregistry.md)
@@ -24,6 +26,16 @@ The goal here is to start from zero, create a source code repository, build the 
  * [AWS CodeBuild](devops/aws-codebuild.md)
 
 Everything described in these guides, so far, has been tested and shown to be working in AWS.
+
+#### GitLab
+
+Focussed on getting going with [GitLab](https://gitlab.com).
+
+ * pending...
+
+### git
+
+Quickstart for teams new to [git](https://git-scm.com).
 
 ## License
 

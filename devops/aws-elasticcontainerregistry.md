@@ -8,7 +8,7 @@ Reference documentation is [here](https://aws.amazon.com/ecr).
 
 ## Creating a repository
 
-If this is the first repository, ese the `Get started` button.
+If this is the first repository, use the `Get started` button.
 
 The repository name may be related to a specific project, or may be more general - it depends if there is a need to keep various different images separately or not.
 
