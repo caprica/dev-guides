@@ -33,9 +33,11 @@ Focussed on getting going with [GitLab](https://gitlab.com).
 
  * pending...
 
-### git
+### Git
 
-Quickstart for teams new to [git](https://git-scm.com).
+Quick start for teams new to [git](https://git-scm.com):
+
+ * [Git SSH setup](git/git-ssh.md)
 
 ## License
 
