@@ -97,12 +97,18 @@ Use the AWS command-line interface.
 
 _It is assumed the AWS cli is properly installed and configured._
 
-In the examples shown in the following sections, these values are illustrative only and need to be replaced with whatever is appropriate:
+In the examples that follow, these values are illustrative only and need to be replaced with whatever is appropriate:
 
  * `123412341234` is the AWS account ID
  * `eu-west-2` is the AWS region
  * `proof-of-concept-repo` is the repository name
  * `fcd3f42` is the image tag
+
+It may first be necessary to authenticate the AWS command-line session to the container registry, for example:
+
+```
+aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin 123412341234.dkr.ecr.eu-west-2.amazonaws.com
+```
 
 To list the repositories:
 
@@ -119,12 +125,6 @@ aws ecr describe-images --repository-name proof-of-concept-repo
 ```
 
 From the list of images, find the relevant tag and then use Docker to pull the image from ECR to the local repository.
-
-It may first be necessary to authenticate the AWS command-line session to the container registry, for example:
-
-```
-aws ecr get-login-password --region eu-west-2 | docker login --username AWS --password-stdin 123412341234.dkr.ecr.eu-west-2.amazonaws.com
-```
 
 To pull the image:
 
