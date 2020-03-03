@@ -27,6 +27,10 @@ The goal here is to start from zero, create a source code repository, build the 
 
 Everything described in these guides, so far, has been tested and shown to be working in AWS.
 
+#### Kubernetes
+
+ * [Kubernetes Deployments](devops/kubernetes-deployments.md)
+
 #### GitLab
 
 Focussed on getting going with [GitLab](https://gitlab.com).
@@ -37,7 +41,7 @@ Focussed on getting going with [GitLab](https://gitlab.com).
 
 Quick start for teams new to [git](https://git-scm.com):
 
- * [Git SSH setup](git/git-ssh.md)
+ * [Git on Windows](git/git-windows.md)
 
 ## License
 
