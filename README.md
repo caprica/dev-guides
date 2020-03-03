@@ -41,6 +41,7 @@ Focussed on getting going with [GitLab](https://gitlab.com).
 
 Quick start for teams new to [git](https://git-scm.com):
 
+ * [Git client configuration](git/git-client-config.md)
  * [Git on Windows](git/git-windows.md)
 
 ## License
