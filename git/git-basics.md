@@ -69,7 +69,7 @@ git clone ssh://git-codecommit.YOUR-AWS-REGION.amazonaws.com/v1/repos/YOUR-REPOS
 Or HTTPS:
 
 ```
-https://git-codecommit.YOUR-AWS_REGION.amazonaws.com/v1/repos/YOUR_REPOSITORY
+https://git-codecommit.YOUR-AWS_REGION.amazonaws.com/v1/repos/YOUR-REPOSITORY
 ```
 
 ## Working copy status
