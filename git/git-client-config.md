@@ -52,14 +52,18 @@ It is possible to set any command, even something like VSCode or Notepad++.
 
 By default git uses 'fast forward' to perform merges.
 
-Some teams do not like this as it can lose context about what was actually changed. Using the git option for `--no-ff` switches to a different type of merging.
+Some teams do not like this as it can lose context about what was actually changed. Using the git command-line option for `--no-ff` switches to a different type of merging.
+
+The `--no-commit` option will perform the merge without performing the commit, providing an opportunity to review the merge and possibly tweak the merge result before committing.
+
+These options can be translated to git configuration settings, applicable either the current repository only or to all repositories via the global settings:
 
 ```
 git config --global merge.commit no
 git config --global merge.ff no
 ```
 
-These config settings only switch the default behaviour, it is possible to pass `--ff` or `--no-ff` to individual commands to override that default behaviour.
+These configuration settings only switch the default behaviour, it is possible to pass `--ff` or `--no-ff`, or `--commit` or `--no-commit`, to individual commands to override that default behaviour.
 
 For example, it is sometimes recommended to not use fast-forward merges for branch merges, but to allow it when rebasing in a developer's private feature branch (to keep the branch history clean).
 
