@@ -72,7 +72,7 @@ DgYDVQQHEwdTZWF0dGxlMQ8wDQYDVQQKEwZBbWF6b24xFDAS=EXAMPLE user-name@computer-name
 mark@serenity:~$
 ```
 
-_Make sure it is the public key file `codecommit_rsa.pub` and **not** the private key file `codecommit_rsa`._
+_Make sure it is the public key file `codecommit_rsa.pub` and **not** the private key file `codecommit_rsa` that is copied here._
 
 The public key is everything inclusive from `ssh-rsa` up to and including  `user-name@computer-name`.
 
@@ -82,7 +82,7 @@ From this tab, choose `Upload SSH public key`.
 
 In the dialog that opens, paste the public key previously copied to the clipboard and confirm the dialog via the `Upload SSH public key` button.
 
-When the dialog closes, an `SSH public key successfully updated` should be shown, and the new key included in the table below.
+When the dialog closes, an `SSH public key successfully uploaded` should be shown, and the new key included in the table below.
 
 Copy the value in the `SSH key ID` column for the newly uploaded key to the clipboard (if there is more than one key look for the one with the most recent date).
 
@@ -104,7 +104,7 @@ IdentityFile ~/.ssh/codecommit_rsa
 
 Replace the `User` value with that of the SSH key ID previously copied to the clipboard.
 
-_Make sure this time it is the private key file `codecommit_rsa` and **not** the public key file `codecommit_rsa.pub`._
+_Make sure this time it is the private key file `codecommit_rsa` and **not** the public key file `codecommit_rsa.pub` for the `IdentityFile` setting above._
 
 ## Testing the SSH Client Configuration
 
