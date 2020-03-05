@@ -24,6 +24,10 @@ HTTP_PROXY=http://corporate-proxy:8080 kubectl get pods
 
 It is however much more convenient to add that environment variable to the `~/.bash_profile` file so it is automatically available in every new terminal session.
 
+```
+export HTTP_PROXY=http://corporate-proxy:8080
+```
+
 Without setting this, the commands will likely timeout with no explanation.
 
 ## Configuration for AWS Cloud
